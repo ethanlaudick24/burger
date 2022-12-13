@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C4131F729081012006FE593 /* cartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4131F629081012006FE593 /* cartViewController.swift */; };
+		1C4131F92908108C006FE593 /* wellnessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4131F82908108C006FE593 /* wellnessViewController.swift */; };
+		1C4131FB290810CB006FE593 /* toppingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4131FA290810CB006FE593 /* toppingsViewController.swift */; };
 		1CE8CA092906C9F100548744 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE8CA082906C9F100548744 /* AppDelegate.swift */; };
 		1CE8CA0B2906C9F100548744 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE8CA0A2906C9F100548744 /* SceneDelegate.swift */; };
 		1CE8CA0D2906C9F100548744 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE8CA0C2906C9F100548744 /* ViewController.swift */; };
@@ -14,9 +17,13 @@
 		1CE8CA132906C9F100548744 /* burger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1CE8CA112906C9F100548744 /* burger.xcdatamodeld */; };
 		1CE8CA152906C9F200548744 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CE8CA142906C9F200548744 /* Assets.xcassets */; };
 		1CE8CA182906C9F200548744 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CE8CA162906C9F200548744 /* LaunchScreen.storyboard */; };
+		1CE8CA202906CB3300548744 /* Burger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE8CA1F2906CB3300548744 /* Burger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C4131F629081012006FE593 /* cartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cartViewController.swift; sourceTree = "<group>"; };
+		1C4131F82908108C006FE593 /* wellnessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wellnessViewController.swift; sourceTree = "<group>"; };
+		1C4131FA290810CB006FE593 /* toppingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toppingsViewController.swift; sourceTree = "<group>"; };
 		1CE8CA052906C9F100548744 /* burger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = burger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CE8CA082906C9F100548744 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CE8CA0A2906C9F100548744 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +33,7 @@
 		1CE8CA142906C9F200548744 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CE8CA172906C9F200548744 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CE8CA192906C9F200548744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CE8CA1F2906CB3300548744 /* Burger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Burger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,10 @@
 				1CE8CA0A2906C9F100548744 /* SceneDelegate.swift */,
 				1CE8CA0C2906C9F100548744 /* ViewController.swift */,
 				1CE8CA0E2906C9F100548744 /* Main.storyboard */,
+				1C4131FA290810CB006FE593 /* toppingsViewController.swift */,
+				1C4131F82908108C006FE593 /* wellnessViewController.swift */,
+				1C4131F629081012006FE593 /* cartViewController.swift */,
+				1CE8CA1F2906CB3300548744 /* Burger.swift */,
 				1CE8CA142906C9F200548744 /* Assets.xcassets */,
 				1CE8CA162906C9F200548744 /* LaunchScreen.storyboard */,
 				1CE8CA192906C9F200548744 /* Info.plist */,
@@ -142,8 +154,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CE8CA0D2906C9F100548744 /* ViewController.swift in Sources */,
+				1CE8CA202906CB3300548744 /* Burger.swift in Sources */,
+				1C4131FB290810CB006FE593 /* toppingsViewController.swift in Sources */,
+				1C4131F729081012006FE593 /* cartViewController.swift in Sources */,
 				1CE8CA092906C9F100548744 /* AppDelegate.swift in Sources */,
 				1CE8CA132906C9F100548744 /* burger.xcdatamodeld in Sources */,
+				1C4131F92908108C006FE593 /* wellnessViewController.swift in Sources */,
 				1CE8CA0B2906C9F100548744 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
